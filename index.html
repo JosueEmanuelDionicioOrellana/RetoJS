@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Reto css</title>
 </head>
 <body>
-    
+    <script src="system.js"></script>
+
+    <div class="div1" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <button onclick="crear('div1');">Crear tarjeta</button>
+        <div class="tarjeta"  id="columna1" draggable="true" ondragstart="drag(event)">
+            <p>Tarjeta #1</p>
+        </div>
+    </div>
+    <div class="div2" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" >
+        <button onclick="crear('div2');">Crear tarjeta</button>
+        <div class="tarjeta"  id="columna2" draggable="true" ondragstart="drag(event)">
+            <p>Tarjeta #2</p>
+        </div>
+    </div>
+    <div class="div3" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <button onclick="crear('div3');">Crear tarjeta</button>
+        <div class="tarjeta"  id="columna3" draggable="true" ondragstart="drag(event)">
+            <p>Tarjeta #3</p>
+        </div>
+    </div>
 </body>
 </html>
