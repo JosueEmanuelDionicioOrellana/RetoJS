@@ -8,24 +8,15 @@
 </head>
 <body>
     <script src="system.js"></script>
-
+    <button class="creacion" onclick="creacionDiv();" >crear mas divs</button>
     <div class="div1" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <button onclick="crear('div1');">Crear tarjeta</button>
-        <div class="tarjeta"  id="columna1" draggable="true" ondragstart="drag(event)">
-            <p>Tarjeta #1</p>
-        </div>
+        <button class="boton" onclick="crear('div1');">Crear tarjeta</button>
     </div>
     <div class="div2" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" >
-        <button onclick="crear('div2');">Crear tarjeta</button>
-        <div class="tarjeta"  id="columna2" draggable="true" ondragstart="drag(event)">
-            <p>Tarjeta #2</p>
-        </div>
+        <button class="boton" onclick="crear('div2');">Crear tarjeta</button>
     </div>
     <div class="div3" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <button onclick="crear('div3');">Crear tarjeta</button>
-        <div class="tarjeta"  id="columna3" draggable="true" ondragstart="drag(event)">
-            <p>Tarjeta #3</p>
-        </div>
+        <button class="boton" onclick="crear('div3');">Crear tarjeta</button>
     </div>
 </body>
 </html>
